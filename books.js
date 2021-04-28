@@ -19,7 +19,7 @@ const User = mongoose.model('User', userSchema);
 
 const skyler = new User({
     name: 'skyler',
-    email: 'skyler@skyler.com',
+    email: 'basseuph@gmail.com',
     books: [
         {
             name: 'Being in Nothingness',
