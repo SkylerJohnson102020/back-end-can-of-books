@@ -1,16 +1,23 @@
-http://localhost:27017/books
+http://localhost:3001/books
 
 ###
 
-http://localhost:27017/unknown
+http://localhost:3001/unknown
 
 ###
 
-POST http://localhost:27017/books HTTP/1.1
-Content-Type: application/json
+GET http://localhost:3001/books?email=IamAJ@gmail.com HTTP/1.1
+content-type: application/json
+
+
+###
+POST http://localhost:3001/books?email=basseuph@gmail.com HTTP/1.1
+content-type: application/json
 
 {
-    "????": "coming soon",
+    "name": "new book",
+    "description": "new book description",
+    "status": "new book status"
 }
 
 ###
